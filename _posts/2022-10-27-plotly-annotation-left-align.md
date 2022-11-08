@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 toc: true
 title: "[Plotly] add_vline annotation 왼쪽 정렬하기"
 # categories: junk
@@ -15,7 +15,7 @@ x = np.array(range(-10, 11))
 y = x ** 2
 
 fig = go.Figure()
-fig.add_traces(go.Scatter(x=x, y=y))
+fig.add_traces(go.Scatter())
 fig.add_vline(
     x=0,
     line_dash='dash', line_width=0.5,
@@ -100,7 +100,7 @@ x = np.array(range(-10, 11))
 y = x ** 2
 
 fig = go.Figure()
-fig.add_traces(go.Scatter(x=x, y=y))
+fig.add_traces(go.Scatter())
 fig.add_vline(
     x=0,
     line_dash='dash', line_width=0.5,
@@ -110,4 +110,4 @@ fig.add_vline(
 )
 ```
 
-![사진1](/images/1-2.png)
+![사진2](/images/1-2.png)
