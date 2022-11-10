@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 ---
 
 이젠 진짜 마지막 블로그 세팅
